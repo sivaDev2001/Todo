@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: rgb(61, 3, 61);
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+.container{
+    background: rgb(139, 44, 139);
+    margin: 5%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 20px;
+}
+.input{
+    display: flex;
+    
+    input{
+        letter-spacing: 1px;
+    }
+
+    button{
+        padding: 10px;
+        width: 90px;
+        border-radius: 20px;
+        border: none;
+        background: rgb(248, 1, 248);
+        color: aliceblue;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+.mybox{
+    color: aliceblue;
+    background: none;
+    font-size: 18px;
+    margin-right: 3%;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+.mybox::placeholder{
+    color: rgb(176, 189, 201);
+}
+.mybox:focus{
+    border: none;
+    outline: none;
+}
+.line{
+    margin-left: 25px;
+    height: 2px;
+    width: 300px;
+    background: rgb(248, 1, 248);
+    margin-top: 1%;
+}
+
+.list{
+    width: 100%;
+    h2{
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .line2{
+        height: 2px;
+        background: rgb(248, 1, 248);
+        width: 12%;
+        margin-left: 44%;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 1px;
+
+    }
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid transparent;
+    margin: 3%;
+    width: 75%;
+    border-radius: 35px;
+    background: rgb(65, 18, 65);
+
+    span{
+        margin-top: 3%;
+        padding-right: 10px;
+    }
+}
+.btn{
+    display: flex;
+    justify-content:space-between;
+
+    button{
+          background:rgb(243, 5, 243);
+          color: white;
+          border: none;
+          margin: 3%;
+          padding: 10px 20px;
+          border-radius: 10px;
+          cursor: pointer;
+          font-size: 15px;
+          font-weight: bold;
+          letter-spacing: 1px;
+    }
+}
+
